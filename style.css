@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#section-1{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: whitesmoke;
+}
+.circle{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(68, 68, 68);
+}
+.rectangle{
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: 200px;
+  height: 60px;
+  border: none;
+  background-color: gainsboro;
+}
+#section-2{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: slategrey;
+}
+.bottom-rect{
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translate(-50%);
+  width: 200px;
+  height: 60px;
+  border: none;
+  background-color: goldenrod;
+}
